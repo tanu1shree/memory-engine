@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const apiKey = process.env.OPENAI_API_KEY;
-  const model = "deepseek/deepseek-r1:free";
+  const model = "mistralai/devstral-2512:free";
   const messages = req.body.messages;
 
   try {
