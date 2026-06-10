@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const apiKey = process.env.OPENROUTER_API_KEY;
-  const model = "mistralai/mistral-nemo";
+  const model = "openai/gpt-oss-120b:free";
   const messages = req.body.messages;
 
   try {
