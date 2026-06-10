@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const apiKey = process.env.OPENROUTER_API_KEY;
-  const model = "mistralai/devstral-2512:free";
+  const model = "mistralai/mistral-nemo";
   const messages = req.body.messages;
 
   try {
